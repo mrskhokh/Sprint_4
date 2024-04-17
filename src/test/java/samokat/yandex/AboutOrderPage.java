@@ -1,3 +1,5 @@
+package YandexSamokatPages;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -23,7 +25,8 @@ public class AboutOrderPage {
     private final By orderButton=By.xpath("//button[@class='Button_Button__ra12g Button_Middle__1CSJM']");
 
     private final By confirmButton=By.xpath("//button[text()='Да']");
-    AboutOrderPage(WebDriver driver){
+
+    public AboutOrderPage(WebDriver driver){
         this.driver=driver;
     }
 
